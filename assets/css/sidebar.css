@@ -1,0 +1,16 @@
+.af-sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    float: left;
+    z-index: 100;
+}
+
+.sidebar-list li{
+    padding: 10px;
+}
+.sidebar-list a {
+    padding-left: 15px;
+    color: #fffad9;
+    font-family: 'Dosis';
+}
