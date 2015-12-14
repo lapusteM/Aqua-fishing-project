@@ -1,0 +1,10 @@
+.main-content{
+    margin: 50px;
+    padding: 30px;
+
+}
+
+.news-post{
+    border-bottom: 2px dashed darkgray;
+    text-align: justify;
+}

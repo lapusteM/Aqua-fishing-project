@@ -10,7 +10,7 @@ body{
     height: 100%;
 }
 
-.af-header, .af-sidebar {
+.af-header, .af-sidebar, .panel-default>.my-panel, .login-btn { /*panel-def and my-panel come from login.html*/
     background-color: rgb(42, 42, 42);
 }
 
@@ -19,7 +19,7 @@ body{
     padding: 0;
 }
 
-.header-list a, .sidebar-list a, .brand a {
+.header-list a, .sidebar-list a, .brand a, .login-btn a {
     /* TODO: add colors for when a href is selected*/
     text-decoration: none; /* eliminates underlining of the a href*/
 }
@@ -31,4 +31,8 @@ body{
     margin-top: 50px;
     display: inline-block;
     height: 100%;
+}
+
+.text-content{
+    font-family: 'Dosis';
 }

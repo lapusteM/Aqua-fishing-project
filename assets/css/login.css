@@ -1,0 +1,42 @@
+.panel {
+    margin-top:15%;
+    padding: 0;
+}
+
+.panel-default>.my-panel{
+    border-color: rgb(42, 42, 42);
+    color: rgba(7, 243, 255, 1);
+    font-family: 'Shadows Into Light';
+    text-align: center;
+
+}
+
+.panel-default>.my-panel strong {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.login-btn {
+    border-color: rgb(42, 42, 42);
+}
+
+.login-btn a{
+    color: #fffad9;
+    font-family: 'Dosis';
+}
+
+.login-btn:hover{
+    background-color: #898519;
+    border-color: #898519;
+    font-weight: bold;
+    color: rgb(42, 42, 42);
+}
+
+.login-btn a:hover{
+    color: rgb(42, 42, 42);
+}
+
+.panel-body .control-label{
+    color: #4ECDC4;
+}
+
