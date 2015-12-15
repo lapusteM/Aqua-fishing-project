@@ -1,17 +1,18 @@
-.af-header {
-    position: fixed; /* element is position relative to its normal position*/
-    top: 0;
+.af-main-header {
+    position: relative;
+    top: -16px;
     left: 0;
     width: 100%;
     height: 50px;
     z-index: 100;
 }
 
-.header-list li {
+.main-header-list li {
     display: inline-block;
     float: right;
+    margin-top: 15px;
 }
-.header-list a {
+.main-header-list a {
     font-family: 'Dosis';
     color: #dbdbdb;
     text-transform: uppercase;
@@ -23,8 +24,7 @@
     font-family: 'Shadows Into Light';
     color: rgba(7, 243, 255, 1);
     font-weight: lighter;
+    width: 250px;
     float: left;
     margin: 0px 10px 0px 10px;
 }
-
-#brand a:hover {}

@@ -1,7 +1,8 @@
 .inside-content {
     margin-left: 200px;
     padding: 30px;
-    height: 800px;
+    height: 100%;
+    background-color: #568986;
 }
 .text-content {
     text-align: justify;
